@@ -23,8 +23,8 @@
             android:exported="true">
             <intent-filter>
                 <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
-                <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
-                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <!--<action android:name="android.intent.action.AIRPLANE_MODE" />-->
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
